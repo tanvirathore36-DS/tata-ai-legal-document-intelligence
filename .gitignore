@@ -1,0 +1,37 @@
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+.venv/
+
+# ChromaDB local data
+backend/chroma_db/
+backend/chroma_db_backup/
+
+# Temporary files
+*.log
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Local test files
+backend/services/test.pdf
+backend/services/test.png
+backend/api/upload_backup.py
+
+# Local dependency snapshot
+backend/requirements-full.txt
